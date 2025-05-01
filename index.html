@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joyful Moments Events</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff8f0;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(45deg, #ffb347, #ffcc33);
+      padding: 1rem;
+      text-align: center;
+      color: white;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+    }
+    .gallery img {
+      width: 30%;
+      margin: 1%;
+      border-radius: 10px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      margin: auto;
+    }
+    form input, form textarea {
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      padding: 0.7rem;
+      background: #ffcc33;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .testimonial {
+      background: #ffe;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-left: 5px solid #ffb347;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Joyful Moments Events</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#booking">Book</a>
+      <a href="#contact">Contact</a>
+      <a href="#testimonials">Testimonials</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to Joyful Moments</h2>
+    <p>Your dream events, beautifully brought to life with colours, culture and creativity. Let us take the stress while you enjoy the celebration!</p>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <img src="placeholder1.jpg" alt="Event photo 1">
+    <img src="placeholder2.jpg" alt="Event photo 2">
+    <img src="placeholder3.jpg" alt="Event photo 3">
+  </section>
+
+  <section id="booking">
+    <h2>Book a Service</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Event Type (e.g. Wedding, Birthday)">
+      <input type="date" required>
+      <textarea placeholder="Tell us more about your event" rows="4"></textarea>
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact & Consultation</h2>
+    <p>Email: joyfulmomentsevents@example.com</p>
+    <p>Phone: +44 1234 567890</p>
+    <h3>Request a Consultation</h3>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="How can we help you?" rows="4"></textarea>
+      <button type="submit">Send Request</button>
+    </form>
+  </section>
+
+  <section id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial">
+      <p>"Absolutely magical! Everything was perfect and beautifully styled. Highly recommend!" - Amina O.</p>
+    </div>
+    <div class="testimonial">
+      <p>"Joyful Moments turned our dream wedding into a reality. Thank you for all your hard work!" - David & Chioma</p>
+    </div>
+  </section>
+</body>
+</html>
